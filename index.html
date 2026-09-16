@@ -1,7 +1,86 @@
-<html>
-    <head>
-        <meta charset="utf-8" />
-    </head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China: el nuevo centro mundial de los videojuegos</title>
     
-    </head>
+    <style>
+        /* Variables y reseteo básico */
+        :root {
+            --primary-color: #2c3e50;
+            --background-color: #f8f9fa;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+
+        /* Clase útil para iframes responsivos (ej. gráficos o videos) */
+        .embed-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Ratio 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            margin-top: 2rem;
+            border-radius: 4px;
+        }
+
+        .embed-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>China: el nuevo centro mundial de los videojuegos</h1>
+        <p>Análisis y narrativa digital</p>
+    </header>
+
+    <main class="container">
+        <h2>Introducción</h2>
+        <p>Este es el inicio de la página. Puedes reemplazar este texto con el contenido de tu investigación, añadir más secciones HTML, o enlazar una hoja de estilos (CSS) externa si prefieres no tener todo en el mismo archivo.</p>
+        
+        <!-- Ejemplo de contenedor para un iframe responsivo -->
+        <div class="embed-container">
+            <!-- <iframe src="enlace-de-tu-grafico-o-video" allowfullscreen></iframe> -->
+        </div>
+    </main>
+
+</body>
 </html>
